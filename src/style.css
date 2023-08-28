@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/1245270_Space_Domain_Hero_003.jpeg);
+    background-size: 1550px;
+}
+
+
+
+button{
+    cursor: pointer;
+}
+
+.todo-list-item{
+    background-color: #252e33;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+.todo{
+    width: 500px;
+    margin: 150px auto;
+}
+
+.form input{
+    background-color: #181a19;
+    border: none;
+    outline: none;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.form button{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+    background-color: rgb(181, 162, 162);
+    color: black;
+}
